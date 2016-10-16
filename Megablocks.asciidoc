@@ -1,0 +1,11 @@
+★char has many mega blocks. To begin with though, I am only defining a few.
+
+'European'
+----------
+
+This contains all latin alphabet derived scripts, all cyrillic scripts, as well as greek.
+
+'CJK'
+------
+
+This contains all scripts that used any form of 
