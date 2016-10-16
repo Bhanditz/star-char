@@ -1,0 +1,21 @@
+A block of text is made up of control codes and modal data codes.
+Control codes switch modes.
+
+Control codes:
+Switch into a given Mega block.
+Start with 01.
+
+Data codes:
+
+Mega blocks:
+Script glyphs
+Start with a 1.
+Selectors
+Start with a 00.
+
+Individual glyphs are all within mega blocks; a mega block is made up of scripts that share many homologous glyphs, and many selectors.
+
+Selectors do several things:
+- They determine which script a give glyph belongs to, or select a specific variant of a glyph
+- They add modifiers, such as diacritics, skin tone selectors, and so forth.
+- They combine characters in megablock specific ways - eg the people grouping selector, or the flag formation selector, or the jamo grouping selector, or the dipthong formation selector.
