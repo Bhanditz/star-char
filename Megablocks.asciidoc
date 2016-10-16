@@ -1,5 +1,7 @@
 ★char has many mega blocks. To begin with though, I am only defining a few.
 
+Note https://en.wikipedia.org/wiki/List_of_language_families
+
 'European'
 ----------
 
