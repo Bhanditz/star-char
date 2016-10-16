@@ -13,7 +13,7 @@ Start with a 1.
 Selectors
 Start with a 00.
 
-Individual glyphs are all within mega blocks; a mega block is made up of scripts that share many homologous glyphs, and many selectors.
+Individual glyphs are all within mega blocks; a mega block is made up of scripts that share many homoglyphs, and many selectors.
 
 Selectors do several things:
 - They determine which script a give glyph belongs to, or select a specific variant of a glyph
