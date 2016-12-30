@@ -13,6 +13,7 @@ Megablocks are binned, with bins being of potentially different sizes. Bins are 
 Mega blocks can contain several different kinds of things, which may be partitioned into individually sized bins:
 - Script glyphs
 - Selectors
+- Glyph partials (eg individual jamos)
 
 Individual glyphs are all within mega blocks; a mega block is made up of scripts that share many homoglyphs, and many selectors.
 
