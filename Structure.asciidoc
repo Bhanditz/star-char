@@ -1,17 +1,18 @@
-A block of text is made up of control codes and modal data codes.
-Control codes switch modes.
+All text is made up of switch codes and index codes.
 
-Control codes:
-Switch into a given Mega block.
-Start with 01.
+A switch code is similar to a zigzag varint. A switch code must always be followed by at least one index code.
 
-Data codes:
+Format: 8-bit ('1' (7-bit))* '0'
 
-Mega blocks:
-Script glyphs
-Start with a 1.
-Selectors
-Start with a 00.
+A switch code specifies which megablock to switch into.
+
+Index codes pick things out of megablocks. All switch codes are for the currently active megablock.
+
+Megablocks are binned, with bins being of potentially different sizes. Bins are specified by a prefix code. Index codes for a given megablock use the prefix code plus an additional log_2(bin-size) + 1 bits, as usual. A specified megablock entry for each megablock switches back to expecting a control code.
+
+Mega blocks can contain several different kinds of things, which may be partitioned into individually sized bins:
+- Script glyphs
+- Selectors
 
 Individual glyphs are all within mega blocks; a mega block is made up of scripts that share many homoglyphs, and many selectors.
 
