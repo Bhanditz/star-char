@@ -1,0 +1,18 @@
+The version as a varint.
+The number of bits of per thing flags as a varint.
+The number of megablocks as a varint.
+That many megablock records.
+
+---
+
+Megablock record format:
+The number of bins as a varint.
+That many bin records.
+
+---
+
+Bin record format:
+Varint with number of prefix bits.
+Prefix bits.
+Varint with size of the bin.
+That many things worth of bits of per thing flags.
