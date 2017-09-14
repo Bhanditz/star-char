@@ -1,0 +1,5 @@
+The ★-char bitstream by itself is not enough to give a fixed form of text; you need a container as well.
+
+The simplest container format...
+
+Some pairs of container formats have isomorphisms - text in these formats can be losslessly converted via the isomorphism, or compared for equality by quotienting with the isomorphism. Others have only weaker morphisms, so they can only be lossily converted, and may require a structural function to do this. Canonical structural functions should be provided for eg screen readers to use.

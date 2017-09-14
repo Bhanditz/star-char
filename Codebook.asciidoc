@@ -1,0 +1,13 @@
+Formats:
+
+# The initial authoring format
+
+A list of glyphs, with each glyph having its megablock and bin names, as well as a list of typed properties.
+
+Types of properties:
+- Fixed, relative to a megablock
+    For example, European:Letter, European:UppercaseLetter, European:Punctuation, CJKV:Ideogram, CJKV:Radical, CJKV:Punctuation, CJKV:Whitespace, CJKV: Jamo
+- Fixed, relative to a bin
+- Variable, relative to a megablock, changed by a selector
+- Implied by another property
+    For example: Letter is implied by European:Letter, Indic:Letter, Arabic:Letter. Joined is implied by ...

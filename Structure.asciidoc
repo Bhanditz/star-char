@@ -6,7 +6,7 @@ Format: 8-bit ('1' (7-bit))* '0'
 
 A switch code specifies which megablock to switch into.
 
-Index codes pick things out of megablocks. All switch codes are for the currently active megablock.
+Index codes pick things out of megablocks. All index codes are for the currently active megablock.
 
 Megablocks are binned, with bins being of potentially different sizes. Bins are specified by a prefix code. Index codes for a given megablock use the prefix code plus an additional log_2(bin-size) + 1 bits, as usual. A specified megablock entry for each megablock switches back to expecting a control code.
 
